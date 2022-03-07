@@ -10,5 +10,5 @@ def newestFile(path):
 
 def dataCompletenessAnalysis(tmpDf):
     import pandas as pd
-    for column in list(tmpDf.Columns):
+    for column in list(tmpDf.columns):
         print(column)
